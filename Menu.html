@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@500&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+
+            <style>
+                body{
+                background-color:#80471c;
+                margin:0px;
+                height: 1100px;
+                }
+                nav {
+                width: 100vw;
+                height: 100px;
+                background-color:#3C280D ;
+                }
+                nav ul {
+                width: 100vw;
+                list-style-type: none;
+                padding: 0;
+                overflow: hidden;
+                background-color: #3C280D;
+                border:0px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                background-image: url('Blank 1 Panel Landscape Comic Strip.png');
+                background-size: 10vw;
+                background-position: left;
+                height: 100px;
+                background-repeat: no-repeat;
+                }
+                nav ul li{
+                float: left;
+                height: 90px;
+                }
+                nav ul li:first-of-type{
+                    margin-left: 150px;
+                }
+                nav ul li:hover {
+                    background-color: #80471c ;
+                }
+                nav ul li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 25pt;
+                }
+                nav li {
+                float: left;
+                }
+                li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Marhey', cursive;
+                }
+                li a:hover {
+                background-color: #111;
+                }
+                li a:link {
+                color:white;
+                background-color: transparent;
+                text-decoration: none;
+                }
+                a {
+                display: block;
+                padding: 8px;
+                background-color: #dddddd;
+                }
+                header {
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                    text-align: left;
+                    font-family: 'Shadows Into Light', cursive;
+                    width: 28vw;
+                    float:left;
+                    font-size: 50px;
+                }
+                article{
+                    width:25vw;
+                    float: right;
+                    text-align: left;
+                    margin-top: 10px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                }
+                aside{
+                    width: 45vw;
+                    float: left;
+                }
+                section{
+                    width: 27vw;
+                    height: 300px;
+                    background-repeat: no-repeat;
+                    float: left;
+                    margin-top: 20px;
+                }
+                section img{
+                    width: 27vw;
+                    float: left;
+                    text-align: left;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                    height: 300px;
+                    object-fit: fill;
+
+                }
+                aside img{
+                    width:44.5vw;
+                    float: left;
+                    margin-top: 10px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                    height: 1000px;
+                    object-fit: fill;
+                }
+                header td{
+                width: 100vw;
+                }
+                div{
+                display: inline-block;
+                }
+                .mnhd {
+                width: 15vw;
+                font-size: 50pt;
+                font-family: 'Patrick Hand', cursive;
+                font-style: italic;
+                color:aqua;
+                }
+                .mnpr{
+                width: 4.5vw;
+                font-size: 10pt;
+                text-align: center;
+                font-family: 'Roboto', sans-serif; 
+                color:aqua;
+                }
+                .mnpd{
+                width: 1.5vw;
+                font-size: 10pt;
+                text-align: center;
+                font-family: 'Roboto', sans-serif; 
+                color:aqua;
+                }
+                header h3 {
+                    margin:0px;
+                    font-size: 25px;
+                    color:white;  
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 10px;
+                }
+                header h1 {
+                    margin:0px;
+                    font-family: 'Patrick Hand', cursive;
+                    font-style: italic;
+                    color:aqua;
+                    font-size: 50pt;
+                    margin-top: 10px;
+                }
+                header h2 {
+                    margin:0px;
+                    font-size: 15px;
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+
+                }
+                article h3 {
+                    margin:0px;
+                    font-size: 25px;
+                    color:white;  
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 10px;
+                }
+                article h1 {
+                    margin:0px;
+                    font-size: 25px;
+                    color:white;  
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 10px;
+                }
+                article h2 {
+                    margin:0px;
+                    font-size: 15px;
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                }
+                aside h3 {
+                    margin:0px;
+                    font-size: 25px;
+                    color:white;  
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 10px;
+                }
+                aside h1 {
+                    margin:0px;
+                    font-size: 25px;
+                    color:white;  
+                    font-family: 'Roboto', sans-serif;
+                    margin-top: 10px;
+                }
+                aside h2 {
+                    margin:0px;
+                    font-size: 15px;
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                }
+                hr {
+                    margin:0px;
+                    color: #80471c;
+                }
+                
+                .container {
+                position: relative;
+                text-align: center;
+                }
+                .bottom-left {
+                position: absolute;
+                bottom: 8px;
+                left: 16px;
+                font-size: 20pt;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                color:aqua;
+                }
+                .top-left {
+                position: absolute;
+                top: 8px;
+                left: 16px;
+                font-size: 20pt;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                color:aqua;
+                }
+                .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+                font-size: 20pt;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                color:aqua;
+                }
+                .bottom-right {
+                position: absolute;
+                bottom: 8px;
+                right: 16px;
+                font-size: 20pt;
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                color:aqua;
+                }
+            </style>
+        <title>Menu</title>
+        </head>
+
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="CAFE_SanJose_CS.html">Home</a></li>
+                    <li><a href="Menu.html">Menu</a></li>
+                    <li><a href="About_Cafe.html">Visit Us</a></li>
+                </ul>
+            </nav>
+        <header>
+            <table>
+                <tr>
+                    <td>
+                        <div class="mnhd">
+                            Coffee
+                        </div>
+                        <div class="mnpr">
+                            Venti.
+                        </div>
+                        <div class="mnpd">
+                            Grande.
+                        </div>
+                    </td>
+                </tr>
+            </table>
+                <h3>Caffe Macchiato&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140</h3>
+                <h2>double espresso topped with a </h2>
+                <h2>dollop of heated, foamed milk</h2>
+                <h3>Cappuccino &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;69&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;79</h3>
+                <h2>cream, cinnamon, milk, espresso</h2>
+                <h2>and a thick layer of microfoam</h2>
+                <h3>Caramel Macchiato&nbsp;&nbsp;&nbsp;&nbsp;130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140</h3>
+                <h2>vanilla syrup, steamed milk ,and</h2>
+                <h2> topped with caramel drizzle</h2>
+                <h3>Caffe Mocha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120</h3>
+                <h2>espresso and hot milk with</h2> 
+                <h2>cocoa powder and sugar</h2>
+                <h3>Vanilla Latte&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;109&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110</h3>
+                <h2>steamed milk, milk foam, 2 shots</h2>
+                <h2> of espresso, and vanila syrup</h2>
+                <h3>Iced Coffee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;69&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;79</h3>
+                <h2>espresso, milk, vanila extract,</h2>
+                <h2>whipped cream, and ice</h2>
+                <h3>Hot chocolate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50</h3>
+                <h2>cocoa powder, and steamed milk</h2>
+                <h3>Cold chocolate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50</h3>
+                <h2>cocoa powder, steamed milk,</h2>
+                <h2>and crushed ice</h2>
+                <section>
+                    <div class="container">
+                        <img src=85153452-56a176765f9b58b7d0bf84dd.jpg alt="Paris" width="400" height="300">
+                        <div class="bottom-left"><h3>Caffe Mocha</h3></div>
+                      </div> 
+                </section>
+        </header>
+        <aside>
+            <div class="container">
+                <img src=cafemenu.png alt="Paris" width="400" height="300">
+                <div class="bottom-left">Blueberry Cheese Cake</div>
+                <div class="top-left">Caramel Macchiato</div>
+                <div class="top-right">Cappuccino</div>
+                <div class="bottom-right">Macaroons</div>
+              </div>
+
+        </aside>
+
+        <article>
+                <div class="mnhd">
+                    Meals
+                </div>
+                <h3>Breakfast Pizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120</h3>
+                <h2>Cheese and Pepperoni Pizza</h2>
+                <h2>Good for 2 people</h2>
+                <h3>Breakfast Sandwich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;150</h3>
+                <h2>Ham, Egg, Lettuce, Tomato</h2>
+                <h2>3 breakfast sandwich 1 order</h2>
+                <h3>Chicken&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;109</h3>
+                <h2>Chicken with 1 cup of rice</h2>
+                <h3>Calamares&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100</h3>
+                <h2>Deep-fried egg and flour </h2>
+                <h2>coated squid</h2>
+                <h3>Fries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100</h3>
+                <h2>Potato wedged-sliced</h2>
+                <div class="mnhd">
+                     Desserts
+                </div>
+                <div class="mnpr">
+                    Slice.
+                </div>
+                <div class="mnpd">
+                    Whole.
+                </div>
+
+                <h3>Croissant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;140</h3>
+                <h3>B. Cheese Cake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120&nbsp;&nbsp;&nbsp;860</h3>
+                <h2>Cheese Cake with </h2>
+                <h2>Blueberry</h2>
+                <h3>S. Cheese Cake&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120&nbsp;&nbsp;&nbsp;860</h3>
+                <h2>Cheese Cake with </h2>
+                <h2>Strawberry</h2>
+                <h3>Apple Pie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;109&nbsp;&nbsp;&nbsp;760</h3>
+                <h3>Pineapple Pie&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;119&nbsp;&nbsp;&nbsp;780</h3>
+                <h3>Bagels&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;79</h3>
+                <h3>Donuts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;99</h3>
+                <h2>Extra Large Donuts</h2>
+                <h3>Cupcakes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60</h3>
+                <h3>Macaroons&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20</h3>
+        </article>
+
+        </body>
+    </html>
